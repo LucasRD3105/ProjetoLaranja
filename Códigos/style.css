@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tudo {
+    font-family: 'Barlow', sans-serif;
+}
+
+.laranja {
+    background-image: url(images/desktop/image-header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+#setorCima {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#conteinerSeta {
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seta {
+    width: 30px;
+    margin: 30px;
+}
+
+.sunnyside {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.textoMenu {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 40px;
+}
+
+.botaoMenu {
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+    background-color: rgba(240, 248, 255, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.botaoMenu:hover {
+    color: rgb(237, 231, 231);
+}
+
+.botaoMenu:active {
+    color: rgba(237, 231, 231, 0.765);
+}
+
+.botaoContact {
+    border: none;
+    background-color: white;
+    border-width: 60px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-size: 18px;
+}
+
+.botaoContact:hover {
+    background-color: rgb(237, 231, 231);
+}
+
+.botaoContact:active {
+    background-color: rgba(237, 231, 231, 0.765);
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#conteinerMeio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#caixas {
+    width: 50%;
+    height: 500px;
+}
+
+#primeiraCaixa {
+    margin-top: 70px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.segundaCaixa {
+    background-image: url(images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ajusteSegundaCaixa {
+    margin-top: 70px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.terceiraCaixa {
+    background-image: url(images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.quintaCaixa {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ajusteQuintaCaixa {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sextaCaixa {
+    background-image: url(images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#ajusteSextaCaixa {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.primerioTitulo {
+    height: 100px;
+    width: 700px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #26353f;
+}
+
+.primeiroParagrafo {
+    color: gray;
+}
+
+.botaoLearnMore1 {
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    height: 30px;
+    width: 110px;
+    background-image: rgb(241, 241, 133);
+    background-size: 100% 3px;
+    color: black;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.botaoLearnMore1:hover {
+    background-color: rgb(245, 245, 174);
+}
+
+.botaoLearnMore1:active {
+    background-color: rgb(248, 248, 221);
+}
+
+.segundoTitulo {
+    height: 100px;
+    width: 700px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #26353f;
+}
+
+.segundoParagrafo {
+    color: gray;
+}
+
+.botaoLearnMore2 {
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    height: 30px;
+    width: 110px;
+    background-image: rgb(244, 172, 189);
+    background-size: 100% 3px;
+    color: black;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.botaoLearnMore2:hover {
+    background-color: rgb(243, 203, 212);
+}
+
+.botaoLearnMore2:active {
+    background-color: rgb(245, 224, 229);
+}
+
+.terceiroTitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 700px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 325px;
+    margin-bottom: 0px;
+    color: #305045;
+}
+
+.terceiroParagrafo {
+    text-align: center;
+    margin-top: 25px;
+    color: #305045;
+}
+
+.quartoTitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 700px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 325px;
+    margin-bottom: 0px;
+    color: #1b4361;
+}
+
+.quartoParagrafo {
+    text-align: center;
+    margin-top: 25px;
+    color: #1b4361;
+}
+
+#caixaPessoas {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.tituloPessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 190px;
+    font-weight: bold;
+    color: #a7abae;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.imagemPessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagemPessoas img {
+    margin-left: 173px;
+    margin-right: 173px;
+    margin-top: 45px;
+}
+
+#ajusteImagemPessoas {
+    border-radius: 50px;
+    width: 65px;
+}
+
+.textoPessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: #4f5c69;
+    font-weight: bold;
+}
+
+.textoPessoas p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 65px;
+}
+
+.nomePessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    color: #23303e;
+}
+
+.nomePessoas p {
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 55px;
+}
+
+.empregoPessoas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: #a7abae;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.empregoPessoas p {
+    margin-left: 145px;
+    margin-right: 145px;
+}
+
+#ajusteEmprego {
+    margin-top: 0px;
+}
+
+#imagensFinais {
+    display: flex;
+    flex-direction: row;
+}
+
+#caixas2 {
+    width: 25%;
+    height: 500px;
+}
+
+.primeira {
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.segunda {
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.terceira {
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.quarta {
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#alinhamentoFinal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#caixaVerde {
+    width: 100%;
+    height: 300px;
+    background-color: #7cc4b4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#alinhamentoFinal p {
+    margin: 0px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 90px;
+}
+
+#sunnysideFinal {
+    margin-bottom: 40px;
+    color: #305045;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+.botaoFinal {
+    cursor: pointer;
+    background-color: #30504500;
+    border: none;
+    color: #427e68;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.botaoFinal:hover {
+    color: white;
+}
+
+.botaoFinal:active {
+    color: rgb(226, 225, 225);
+}
+
+.botoesLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.botoesLogo img {
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
