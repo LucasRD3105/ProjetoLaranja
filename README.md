@@ -1,8 +1,7 @@
 
 <div align="center">
-Esse foi meu primeiro projeto de uma plataforma website. Meu objetivo nesse projeto era criar uma platforma idêntica ao Sunnyside agency landing page que é uma página meramente
-ilustrativa dentro do site Frontend Mentor onde o intuito do projeto é aprender e treinar as habilidades em HTML e CSS. Com isso, havia um modelo dentro desse projeto que eu deveria construir essa 
-página usando HTML e CSS.
+Esse foi meu primeiro projeto de uma plataforma website. O objetivo nesse projeto era criar uma platforma idêntica ao Sunnyside agency landing page que é uma página meramente
+ilustrativa dentro do https://www.frontendmentor.io/home, onde o intuito do projeto é aprender e treinar as habilidades em HTML e CSS. Com isso, havia um modelo que deveria ser seguido.
 </div><br><br>
 
 
